@@ -1,18 +1,5 @@
 # Your First Step Beyond Spreadsheets
 
-## Data Person:
-This books presumes that you understand the importance of data and are pondering if there are alternatives to spreadsheets. 
-
-
-
-## Programming Languages:
-
-What are programming languages. 
-
-Writing scripts (code) has numerous benefits to you as the evaluator  and your nonprofit organization. 
-
-The number one benefit is saving effort,time and sanity by writing your directions (scripts) once and re-run at your leisure or when the data needs to be updated. 
-
 
 
 Reproducability: 
