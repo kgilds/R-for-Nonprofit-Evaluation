@@ -1,6 +1,6 @@
 # Data Management
 
-Quality in, quality out-- critical factor for an evaluation project is the quality of the data to be analyzed.  Ideally, you start with an interesting question that you want answered and are able to map out and implement the best method to collect the data you want answered.I    
+Quality in, quality out-- critical factor for an evaluation project is the quality of the data to be analyzed.  Ideally, you start with an interesting question that you want answered and are able to map out and implement the best method to collect the data you want answered.I
 
 Effectively working with data encompasses the ability to split, apply, and combine.
 
@@ -18,19 +18,21 @@ An important skill is being able to connect separate data sets to analyze the re
 
 # Databases
 
-The world runs on databases and it is a good idea to have a basic idea of how they work.. Have you bought anything from Amazon? If so, most likely you are in a customer database table and the record of your order in another table.    You could think of a  database as  an Excel Workbook with a lot of sheets/or tabs in it. However, most of  the sheets would be  are somehow related to one another by relationship  key. Two types of keys are primary keys and foreign keys.   The power of databases is that a database will tie related data together through the use of keys.
+The world runs on databases and it is a good idea to have a basic idea of how they work.. Have you bought anything from Amazon? If so, most likely you are in a customer database table and the record of your order in another table.    You could think of a  database as  an Excel Workbook with a lot of sheets/or tabs in it. However, most of  the sheets would be  are somehow related to one another by a relationship  key. Think of the lookup value in VLookup function.  The power of databases is that a database will tie related data together through the use of keys and relationships. The two types of keys are primary keys and foreign keys.    
 
-Databases are split into multiple tables or you could think of them as sheets. In a well constructed database each table would have key to uniquely identify a record.  Typically this is a customer identification number or Refer Number,  CIRTS ID.
+Key Terms:
 
-In CIRTS, think of the demographic screen as a seperate table of information. When you create a new record in CIRTS, the computer generates a CIRTS ID and that uniquely identifies the individual. This table has one CIRTS ID to record information about an individual. In theory we should have one demographic record for an individual.  \(Don't think about duplicate entries for the time being\)
+Databases are split into multiple tables or you could think of them as sheets/tabs. In a well constructed database each table would have a key to uniquely identify a record.  Typically this is a customer identification number or Refer Number,  CIRTS ID. 
 
-Think of the all the screens in CIRTS:  Assessments, Enrollment, Medwaiver Timeline.
+In CIRTS, think of the demographic screen as a seperate table of information. When you create a new record in CIRTS, the computer generates a CIRTS ID and that uniquely identifies the individual. **The CIRTS ID is the primary key. **This table has one CIRTS ID to record information about an individual. In theory we should have one demographic record for an individual.  \(Don't think about duplicate entries for the time being\)
 
-You have multiple assessments, you have multiple records in the Enrollment Screen, multiple enteries in the Medwaiver Timeline and all of this is tied together by the CIRTS ID.
+Think of the all the other screens in CIRTS:  Assessments, Enrollment, Medwaiver Timeline.
 
-Between the demographic screen and those other screens is a one to many relationship.
+You have multiple assessments, you have multiple records in the Enrollment Screen, multiple enteries in the Medwaiver Timeline and all of this is tied together by the CIRTS ID.  **The CIRTS ID in these tables are foreign keys and each record has it own primary key that you are not going to see. **
 
-One CIRTS Id tied to many assessments, enrollment record, and MedWaiver Timeline record.
+The relationship between the demographic screen and the 
+
+ent record, and MedWaiver Timeline record.
 
 What are keys? D
 
