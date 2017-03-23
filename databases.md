@@ -18,27 +18,39 @@ An important skill is being able to connect separate data sets to analyze the re
 
 # Databases
 
-The world runs on databases and it is a good idea to have a basic idea of how they work.. Have you bought anything from Amazon? If so, most likely you are in a customer database table and the record of your order in another table.    You could think of a  database as  an Excel Workbook with a lot of sheets/or tabs in it. However, most of  the sheets would be  are somehow related to one another by a relationship  key. Think of the lookup value in VLookup function.  The power of databases is that a database will tie related data together through the use of keys and relationships. The two types of keys are primary keys and foreign keys.
+The world runs on databases and it is a good idea to have a basic idea of how they work..
 
-Key Terms:
+Have you bought anything from Amazon? If so, you are in a customer database table and the record of your order in another table and they are tied together through the use of keys and relationships. The power of databases is it ties related data together through the use of keys and relationships. The two types of keys are primary keys and foreign keys.
 
-Databases are split into multiple tables or you could think of them as sheets/tabs. In a well constructed database each table would have a key to uniquely identify a record.  Typically this is a customer identification number or Refer Number,  CIRTS ID.
+Databases are split into multiple tables or you could think of them as sheets/tabs. In a well constructed database each table has  a key to uniquely identify a record.  Typically this is a customer identification number or Refer Number,  CIRTS ID.You could think of a  database as  an Excel Workbook with a lot of sheets/or tabs in it. However, most of  the sheets would be  are somehow related to one another by a relationship  key. Think of the lookup value in VLookup function.  
 
-In CIRTS, think of the demographic screen as a seperate table of information. When you create a new record in CIRTS, the computer generates a CIRTS ID and that uniquely identifies the individual. **The CIRTS ID is the primary key. **This table has one CIRTS ID for each individual.  
+In CIRTS, think of the demographic screen as a seperate table of information. When you create a new record in CIRTS, the computer generates a CIRTS ID and that uniquely identifies the individual. **The CIRTS ID is the primary key. **This table has one CIRTS ID for each individual.
 
-Demographic Screen &gt; One CIRTS ID = One Individual in the Table = Primary Key.  
+_Demographic Screen &gt; One CIRTS ID = One Individual in the Table = Primary Key._
 
-You can think of assessments in CIRTS as another spreadsheet tab. Consumers get multiple assesssments correct?  This time the CIRTS ID is the foreign key and there can be the same CIRTS ID in the table multiple times and each assessment has a uniquie id primary key.  \(that we are masked from seeing\)
+You can think of assessments in CIRTS as another spreadsheet tab. Consumers get multiple assessments correct?  This time the CIRTS ID is the foreign key and there can be the same CIRTS ID in the table multiple times and each assessment has a unique id primary key.  \(that we are masked from seeing\)
 
-Assessemtns &gt; 
+_Assessments &gt; Assessment Identification Number = One Screening = Primary Key_
 
-Each Assessment = Unique Id
+_Assessments  &gt;  Multiple CIRTS IDs = Foreign Key \(One person, can have multiple assessments\) _
 
-CIRTS ID = Foreign Key
+The CIRTS ID is in the demographic table once but in the assessment table multiple times. This is called a one to many relationship. 
 
-The relationship between the Demographic Table and the Assessment Table called a One to Many Relationship. 
+The same pattern holds true for the other screens such as the Enrollment Screen and Medwaiver Timeline
 
-CIRTS ID is in the demographic table once but in the assessment table multiple times. 
+One CIRTS ID tied to many enrollment records and Medwaiver Timeline records. 
+
+Hint they just hide the other unique ids to label those records because they are not useful to the general user. 
+
+ Data Relationship Types
+
+One to many:  What we just talked about above.
+
+ Many to many relationship--
+
+One to one relationship. One CIRTS Id in this table, and one CIRTS Id in this table. 
+
+
 
 
 
