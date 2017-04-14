@@ -1,6 +1,8 @@
 # Familiar Concepts
 
-Let us discuss the familair concepts between R and spreadsheets.
+ Concepts like, functions, arguments, mail merges, and named ranges provide a cross-walk to a discussion of R programming and hopefully show you can make the leap. 
+
+
 
 I am going to use the VLookup function in MS Excel to complete a cross walk of similiar concepts with R
 
@@ -8,11 +10,8 @@ I am going to use the VLookup function in MS Excel to complete a cross walk of s
 
 Our function set up in a Spreadsheet
 
-
-
 ```
 =vlookup(Arguments...)
-
 ```
 
 The start of a similiar function in R
@@ -34,13 +33,11 @@ The Vlookup functions has many arguments that can help us cross walk similair co
 
 Understanding Lookup values; is the concept of understanding the common links between the two data sets. Most likely, you need the lookup value to uniquely identify a person or thing.
 
-
-
 ```
 join(df_1, df_2, by="student_code")
 ```
 
-This 
+This
 
 **Table\_Array:This is your reference sheet from where the data should be pulled.**
 
@@ -52,9 +49,9 @@ Understanding how to use indexes is useful with understanding coding.
 
 **Range Lookup:This is asking if you want an exact match or an approximate match. It requires “true” or “false”: true provides an approximate match, false provides an exact match. **
 
-The True or FALSE Operator **          
+The True or FALSE Operator **              
 **
 
-**          
+**              
 **
 
