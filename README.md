@@ -6,7 +6,7 @@ This guide will help you make the transition from spreadsheets to using R for da
 
 ## Access to Powerful Analysis Tools
 
-Nonprofit Organizations  have access to the most powerful data analysis tools available  and I am not sure how many Nonprofit actually know this fact.  This is not a special program through Tech Soup or Microsoft.  Google, Facebook,  Amazon, all use R and or Python to analyze their massive amounts of data. 
+Nonprofit Organizations  have access to the most powerful data analysis tools available. How many nonprofit organizations are even aware of this or have the capacity to take advantage of these tools.   This is not a special program through Tech Soup or Microsoft.  R and Python are available for any organization to person to utilize. 
 
 ## Assumptions:
 

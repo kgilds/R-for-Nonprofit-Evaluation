@@ -18,17 +18,17 @@ After you select install, you will get the following pop up dialoug
 
 ![](/assets/package install )
 
-You will then need to type the name of the package. Typing the first letter will you provide you will auto-suggestions.
+You will then need to type the name of the package. Typing the first letter will you provide you with auto-suggestions.
 
-Downloading Libaries from CRAN means that the library has been tested and meet some standards--it does not guarnetee that it will work as intended. You can also download libaries from Github but these packages have not been vetted as much as those on CRAN What does this mean?
+Downloading Libaries from CRAN means that the library has been tested and meet some standards--it does not guarnetee that it will work as intended. You can also download libraries 
 
-* Hadley or Tidy Verse
+* ## Hadley or Tidy Verse
 
   * Embrace the tidy verse. The tidy verse is a serious of packages that will make working with R much easier than using Base R.
-
+  * Dplyr 
 * ### Working Directory
 
-  * A concept that is hard to grasp for non programmers to grasp is the working directory. The working directory is the file folder location on your computer. If you are reading data you need to point your computer to this location. If you create an output, the c
+  * A concept of the working directory may be challenging for non programmers. In theory it is easy to understand--typically it is not explained in simple terms.  The working directory is a  file-folder location on your computer that you are using. If you are reading data you need to point your computer to this location. 
 
 
 
