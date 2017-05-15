@@ -2,7 +2,7 @@
 
 ## Important Benefits
 
-There are numerous benefits to using code to perform an evaluation and they include increased data science skills and knowledge, replication of tasks, reproducability of your analysis.
+There are numerous benefits to using code to perform an evaluation. The benefits include include version control, automation, replication, and  reproducability of the analysis. Another benefit is that learning to code will improve your ability to work with spreadsheets. My joke is that it took me learning R at an intermediate level to truly understand a Vlookup processs in spreadsheets. 
 
 ## Increased data science knowledge and skills
 

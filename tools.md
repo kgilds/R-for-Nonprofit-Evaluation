@@ -1,4 +1,4 @@
-# Tools
+# Tools to work with R
 
 ### R Studio
 
@@ -14,8 +14,6 @@
   * Git is a verision control system and Github is a place to store your code.
 * Using Git and Github is almost as a dramatic change in your workflow as coding your analysis. Like coding it takes some getting used to but once you learn the benefits you are not likely to go back to your normal workflow. 
 * When you are using Git and Github correctly you are thinking about your actions and what your changes will mean downstreatm. It helps you focus your work.
-
-
 
 
 

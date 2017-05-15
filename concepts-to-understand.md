@@ -20,7 +20,7 @@ After you select install, you will get the following pop up dialoug
 
 You will then need to type the name of the package. Typing the first letter will you provide you with auto-suggestions.
 
-Downloading Libaries from CRAN means that the library has been tested and meet some standards--it does not guarnetee that it will work as intended. You can also download libraries 
+Downloading Libaries from CRAN means that the library has been tested and meet some standards--it does not guarnetee that it will work as intended. You can also download libraries
 
 * ## Hadley or Tidy Verse
 
